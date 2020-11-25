@@ -20,13 +20,18 @@
         border: 1px $blue solid;
     }
 }
+.logo {
+    img {
+        max-height: 50px;
+    }
+}
 .box {
     position: relative;
 }
-// .door {
-//     width: 200px;
-//     height: 250px;
-// }
+.door {
+    width: 200px;
+    height: 250px;
+}
 // .door-shadow {
 //     background-color: $blue;
 //     position: absolute;

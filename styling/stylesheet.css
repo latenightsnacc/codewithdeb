@@ -26,17 +26,8 @@
   border: 1px #71aded solid;
 }
 
-.logo img {
-  max-height: 50px;
-}
-
 .box {
   position: relative;
-}
-
-.door {
-  width: 300px;
-  height: 250px;
 }
 
 .door {
