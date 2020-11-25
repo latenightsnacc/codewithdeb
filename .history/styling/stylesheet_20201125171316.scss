@@ -1,0 +1,72 @@
+@import 'variables';
+
+.light-bg {
+    background-color: $light;
+}
+.dark-bg {
+    background-color: $dark;
+}
+.nav-link {
+    padding: 10px 25px;
+    box-shadow: $bsIn;
+    margin-left: 20px;
+    border-radius: 30px;
+    border-left: 1px $blue solid;
+
+    &:hover {
+        transition-property: all;
+        transform-style: preserve-3d;
+        transition-duration: 500ms;
+        border: 1px $blue solid;
+    }
+}
+.logo {
+    img {
+        max-height: 50px;
+    }
+}
+.box {
+    position: relative;
+}
+.door, .door-shadow {
+    width: 300px;
+    height: 300px;
+}
+.door-shadow {
+    background-color: $blue;
+    position: absolute;
+    z-index: -10;
+    border-radius: 20px;
+    
+}
+.door {
+    
+    border-radius: 30px;
+    background-color: $light;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: $bSoftB;
+    &:hover {
+        box-shadow: $bSoftB;
+        border: 1px solid $blue2;
+    }
+    h1 {
+        color: $blue2;
+        text-transform: uppercase;
+    }
+}
+.btn {
+    background-color: $blue;
+    color: $light;
+    padding: 10px 40px;
+    border-radius: 30px;
+    font-size: 20px;
+
+    &:hover {
+        background-color: $blue2;
+        box-shadow: $bsIn;
+    }
+}

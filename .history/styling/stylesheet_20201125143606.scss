@@ -1,0 +1,13 @@
+@import 'variables';
+
+.light-bg {
+    background-color: $light;
+}
+.dark-bg {
+    background-color: $dark;
+}
+.nav-link {
+    padding: 25px;
+    box-shadow: $bsOut;
+    margin-left: 20px;
+}

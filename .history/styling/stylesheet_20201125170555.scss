@@ -1,0 +1,55 @@
+@import 'variables';
+
+.light-bg {
+    background-color: $light;
+}
+.dark-bg {
+    background-color: $dark;
+}
+.nav-link {
+    padding: 10px 25px;
+    box-shadow: $bsIn;
+    margin-left: 20px;
+    border-radius: 30px;
+    border-left: 1px $blue solid;
+
+    &:hover {
+        transition-property: all;
+        transform-style: preserve-3d;
+        transition-duration: 500ms;
+        border: 1px $blue solid;
+    }
+}
+.logo {
+    img {
+        max-height: 50px;
+    }
+}
+.box {
+    position: relative;
+}
+.door, .door-shadow {
+    width: 300px;
+    height: 300px;
+}
+.door-shadow {
+    background-color: $blue;
+    position: absolute;
+    z-index: -10;
+    border-radius: 30px;
+    &:hover {
+        box-shadow: $bSoftB;
+    }
+}
+.door {
+    // border: 1px solid $blue;
+    border-radius: 30px;
+    background-color: $light;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &:hover {
+        transform: rotate(30deg);
+    }
+}

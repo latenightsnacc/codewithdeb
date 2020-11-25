@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Nerko+One&display=swap");
+.light-bg {
+  background-color: #fcfafd;
+}
+
+.dark-bg {
+  background-color: #000000;
+}
+
+.nav-link {
+  padding: 10px 25px;
+  -webkit-box-shadow: -13px -13px 25px #e8e6e9, 13px 13px 25px #ffffff;
+          box-shadow: -13px -13px 25px #e8e6e9, 13px 13px 25px #ffffff;
+  margin-left: 20px;
+  border-radius: 30px;
+  border-left: 1px #71aded solid;
+}
+
+.nav-link:hover {
+  -webkit-transition-property: all;
+  transition-property: all;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  -webkit-transition-duration: 500ms;
+          transition-duration: 500ms;
+  border: 1px #71aded solid;
+}
+
+.logo img {
+  max-height: 50px;
+}
+
+.box {
+  position: relative;
+}
+
+.door, .door-shadow {
+  width: 300px;
+  height: 250px;
+}
+
+.door-shadow {
+  background-color: #71aded;
+  position: absolute;
+  z-index: -10;
+  border-radius: 20px;
+}
+
+.door {
+  border-radius: 30px;
+  background-color: #fcfafd;
+  z-index: 10;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.door h1 {
+  color: gainsboro;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  font-family: "Nerko One", cursive;
+}
+
+.door:hover h1 {
+  color: black;
+}
+
+.door:hover .door-shadow {
+  background-color: #0263e4;
+}
+
+.btn {
+  color: #71aded;
+  padding: 10px 40px;
+  border-radius: 30px;
+  font-size: 20px;
+  -webkit-box-shadow: -13px -13px 25px #e8e6e9, 13px 13px 25px #ffffff;
+          box-shadow: -13px -13px 25px #e8e6e9, 13px 13px 25px #ffffff;
+  border-left: 1px solid #71aded;
+}
+
+.btn:hover {
+  background-color: #0263e4;
+  -webkit-box-shadow: -13px -13px 25px #d6d5d7, 13px 13px 25px #ffffff;
+          box-shadow: -13px -13px 25px #d6d5d7, 13px 13px 25px #ffffff;
+  color: #fcfafd;
+}
+/*# sourceMappingURL=stylesheet.css.map */

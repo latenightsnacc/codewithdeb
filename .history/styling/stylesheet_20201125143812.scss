@@ -1,0 +1,19 @@
+@import 'variables';
+
+.light-bg {
+    background-color: $light;
+}
+.dark-bg {
+    background-color: $dark;
+}
+.nav-link {
+    padding: 10px 25px;
+    box-shadow: $bsIn;
+    margin-left: 20px;
+    border-radius: 30px;
+    border-left: 1px blue;
+
+    &:hover {
+        box-shadow: $bsOut;
+    }
+}
