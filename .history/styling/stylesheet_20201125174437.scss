@@ -28,17 +28,17 @@
 .box {
     position: relative;
 }
-.door {
+.door, .door-shadow {
     width: 300px;
     height: 250px;
 }
-// .door-shadow {
-//     background-color: $blue;
-//     position: absolute;
-//     z-index: -10;
-//     border-radius: 20px;
+.door-shadow {
+    background-color: $blue;
+    position: absolute;
+    z-index: -10;
+    border-radius: 20px;
     
-// }
+}
 .door {
     
     border-radius: 30px;
@@ -79,3 +79,12 @@
     }
 }
 
+.zigzag {
+    height: 100%;
+    width: 20px;
+    background: linear-gradient(-137deg, #e8117f 6px, transparent 0) 0 5px, linear-gradient(320deg, #e8117f 5px, #fff 0) 0 5px;
+    background-color: $blue;
+    background-position: right bottom;
+    background-repeat: repeat-y;
+    background-size: 10px 10px;
+ }

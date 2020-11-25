@@ -34,16 +34,9 @@
   position: relative;
 }
 
-.door, .door-shadow {
+.door {
   width: 300px;
   height: 250px;
-}
-
-.door-shadow {
-  background-color: #71aded;
-  position: absolute;
-  z-index: -10;
-  border-radius: 20px;
 }
 
 .door {
