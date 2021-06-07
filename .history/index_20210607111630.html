@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--TAILWIND CDN-->
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <!--BOOTSTRAP CDN-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <!--Page Title-->
+    <title>HOME - DEBORAH EGONU</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+        h1 {
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 800;
+        }
+        .fade-in-up {
+            animation: fade-in 300ms timing-function delay iteration-count direction fill-mode;
+        }
+        @keyframes fade-in {
+            from {
+                opacity: 0;
+                transform: 'translateY(10px)';
+            }
+            to {
+                opacity: 1;
+                transform:'translateY(0)';
+            }
+        }
+    </style>
+</head>
+<body>
+    <!--NAVIGATION BAR / HEADER-->
+    <nav>
+        <div class="container">
+            <div class="flex flex-row justify-between h-12 items-center">
+                <!--LOGO-->
+                <a href="index.html">
+                    Logo
+                </a>
+                <!--MENU-->
+                <ul class="flex flex-row">
+                    <li class="mr-5">
+                        <a href="">about</a>
+                    </li>
+                    <li class="mr-5">
+                        <a href="">portfolio</a>
+                    </li>
+                    <li class="">
+                        <a href="">learn</a>
+                    </li>
+                </ul>
+            </div>
+            
+        </div>
+    </nav>
+    <div class="h-12"></div>
+    <!--H1 TEXT-->
+    <div class="container">
+        <h1 class="text-center text-xl lg:text-5xl text-gray-700">Hello, I am Deborah Egonu </h1>
+        <span class="font-normal py-5">Welcome to my website!</span>
+    </div>
+    
+    <div class="h-12"></div>
+    <!--GRID-->
+    <div class="container">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div class="bg-purple-300 relative w-100 h-96 group">
+                
+                <div class="absolute -top-10 left-0 opacity-0 group-hover:opacity-100 bg-purple-300">
+                    <h1 class="uppercase text-gray-50">portfolio</h1>
+                </div>  
+                     
+            </div>
+            <div class="bg-blue-300"></div>
+            <div class="bg-green-300 h-96">
+                <h1>hello world</h1>
+            </div>
+            <div class="bg-yellow-300"></div>
+        </div>
+    </div>
+</body>
+</html>
