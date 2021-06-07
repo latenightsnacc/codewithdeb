@@ -2,12 +2,12 @@
 
 html, body {
     overflow-x: hidden;
-    background-image: linear-gradient(to right, $blue2 50%, white 50%);
+    background-image: linear-gradient(to right, $blue 50%, white 50%);
 }
 @media screen and (max-width:600px){
     html, body {
         overflow-x: hidden;
-        background-image: linear-gradient( $blue2 50%, white 50%);
+        background-image: linear-gradient( $blue 50%, white 50%);
     } 
 }
 .light-bg {
