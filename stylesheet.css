@@ -2,4 +2,9 @@
 h1, body, a {
   font-family: 'Open Sans', sans-serif;
 }
+
+.map {
+  width: 100vw;
+  height: 100vh;
+}
 /*# sourceMappingURL=stylesheet.css.map */
